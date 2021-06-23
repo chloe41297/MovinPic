@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&display=swap');
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    position: relative;
+    width: 45vw;
+    height: 100%;
+    overflow: hidden;
+}
+.backGround{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45vw;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #7787ad;
+  
+}
+.human{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 45vw;
+    height: 100%;
+}
+.frame{
+    position: absolute;
+    top: 18px;
+    left: 20px;
+    width: 40vw;
+    height: 90vh;
+    border:solid #e91e23 20px;
+ 
+}
+.headLine{
+    position: absolute;
+    top: 40px;
+    left:90px;
+    color: whitesmoke;
+    font-size: 180px;
+    font-family: 'Cinzel';
+    font-weight: 500;
+    opacity: 50%;
+    margin: 0;
+    padding: 0;
+}
+.mainTitle{
+    justify-content: center;
+    position: relative;
+}
+.mainTitle__main{
+    position:absolute;
+    top: 35vh;
+    left: 18vw;
+    color: whitesmoke;
+    font-size: 70px;
+    font-family: 'Cinzel';
+    font-weight: 500;
+
+
+}
+.mainTitle__sub{
+    position:absolute;
+    top: 44vh;
+    left: 17vw;
+    color: whitesmoke;
+    font-size: 10px;
+    font-family: 'Cinzel';
+    font-weight: 400;
+}
+.subHeadLine{
+    position:absolute;
+    top: 20px;
+    left: 50px;
+    color: black;
+    font-size: 30px;
+    font-family: 'Cinzel';
+    font-weight: 400;
+}
+.date{
+    position:absolute;
+    top: 20px;
+    right: 32px;
+    color: black;
+    font-size: 7px;
+    font-family: 'Cinzel';
+    font-weight: 600;
+}
